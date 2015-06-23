@@ -1,0 +1,138 @@
+body {
+	background-color: #171814;
+}
+.help-panel {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	color: white;
+	width: 80%;
+	border-radius: 15px;
+    background-image: url('../img/help-panel-bg.png');
+    background-position: right;
+    background-size: 100%;
+    padding: 15px;
+}
+.help-panel:hover {
+    border-color: white;
+    border-top-width: 2px;
+    border-width: 2px;
+    border-image: none;
+    border-style: solid;
+}
+.help-description {
+	padding: 15px; 
+}
+.help-description h4 {
+    letter-spacing: 2px;
+}
+.help-description p {
+    width: 55%;
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.help-description img {
+    display: inline-block;
+}
+a:hover {
+	text-decoration: none;
+}
+html {
+    font-family: Arial
+}
+.bindings-panel {
+	margin-left: auto;
+	margin-right: auto;   
+	margin-top: 25px;
+	color: white;
+	width: 80%;
+	border-radius: 15px;
+    background-position: right;
+    background-size: 100%;
+    padding: 15px;
+    text-align: center;
+    background-image: url('../img/help-panel-bg.png');
+}
+.bindings-panel h4 {
+    text-align: left;   
+    margin-left: 5%;  
+    margin-bottom: 15px;
+    margin-top: 25px;
+    letter-spacing: 2px;  
+}
+.bindings-panel img {
+    text-align: left;
+}
+.bindings-panel hr {
+    width: 90%;
+}
+.bindings-control {
+    margin-left: auto;
+	margin-right: auto; 
+	margin-top: 5px;
+    left: 0;
+    right: 0;
+    width: 90%;
+    background-color: rgba(191, 191, 191, 0.3); 
+    padding: 10px;
+    color: white;
+    padding-left: 25px;
+    display: inline-block;
+    text-align: left;
+}
+.bindings-image img {
+    right: 10px;
+    height: 40px;
+}
+.bindings-image {
+    display: inline-block;
+    float:right;
+}
+.bindings-control:hover {
+    background-color: rgba(191, 191, 191, 0.7); 
+}
+.animated-control {
+    margin-left: auto;
+	margin-right: auto; 
+	margin-top: 5px;
+    left: 0;
+    right: 0;
+    width: 90%;
+    background-color: rgba(191, 191, 191, 0.3); 
+    padding: 10px;
+    color: white;
+    padding-left: 25px;
+    display: inline-block;
+    text-align: left;
+}
+.animated-control p {
+    width: 55%;
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.animated-control img {
+    display: inline-block;
+}
+.animated-control h4 {
+    padding-left: 0;
+    margin-left: 0;
+}
+.site-footer {
+    margin-left: auto;
+	margin-right: auto; 
+	margin-top: 5px;
+    left: 0;
+    right: 0;
+    width: 90%;
+    font-size: 10px;
+    margin-left: auto;
+	margin-right: auto;   
+	color: white;
+	width: 80%;
+    padding: 15px;
+    text-align: center;
+}
