@@ -8,7 +8,7 @@ site in the interest of extensibility and customisation. The controls menu allow
 familiar with the games controls and I've created this as I don't believe the original developer created a controls menu for the mod.
 
 <h3> How to install </h3>
-1.) Set somewhere for the site to be served from <br/>
+1.) Setup somewhere for the site to be served from <br/>
 2.) Download source and place on webserver<br/>
 3.) Change line 13 of LUA script in root of this repo and change the address to the address of your webserver<br/>
 
