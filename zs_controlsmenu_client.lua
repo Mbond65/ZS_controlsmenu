@@ -10,7 +10,7 @@ function zs_helpmenu()
 	--Fill the form with a html page
 	local html = vgui.Create( "DHTML" , frame )
 	html:Dock( FILL )
-	html:OpenURL( "http://192.168.2.201:81" ) // Change this address to the server you're hosting the site on
+	html:OpenURL( "http://192.168.1.201:81" )
 	html:SetAllowLua( true )
 	frame:MakePopup()
 end
